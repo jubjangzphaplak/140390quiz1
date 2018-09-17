@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jubjangzphaplak/140390quiz1#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "nodemon": "^1.18.4"
   }
 }
