@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jubjangzphaplak/140390quiz1/issues"
   },
-  "homepage": "https://github.com/jubjangzphaplak/140390quiz1#readme"
+  "homepage": "https://github.com/jubjangzphaplak/140390quiz1#readme",
+  "dependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
