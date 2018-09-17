@@ -21,6 +21,11 @@ app.get('/about', function(req, res) {
 app.get('/about', function(req, res) {
     res.render('pages/subjects');
 });
+
+
+
+
+
 console.log('App is running at http://localhost:8082');
 
 
