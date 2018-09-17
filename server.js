@@ -10,12 +10,16 @@ app.set('view engine', 'ejs');
 
 // index page 
 app.get('/', function(req, res) {
-    res.render('pages/index');
+    res.render('pages/home');
 });
 
 // about page 
 app.get('/about', function(req, res) {
-    res.render('pages/about');
+    res.render('pages/students');
+});
+
+app.get('/about', function(req, res) {
+    res.render('pages/subjects');
 });
 console.log('App is running at http://localhost:8082');
 
