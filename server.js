@@ -1,7 +1,7 @@
 // server.js
 // load the things we need
 var express = require('express');
-var pgp = require('pg-promise')();
+
 var app = express()
 // set the view engine to ejs
 app.set('view engine', 'ejs');
