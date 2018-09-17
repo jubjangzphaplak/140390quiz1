@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
   app.set('view engine', 'ejs');
   //home
   app.get('/', function (req, res) {
-      res.render('pages/home');
+      res.render('pages/index');
   });
   //all list of student
   app.get('/students', function (req, res) {
@@ -41,7 +41,7 @@ var connection = mysql.createConnection({
   });
   
   app.get('/index', function (req, res) {
-      res.render('pages/home');
+      res.render('pages/index');
   });
   console.log('App is running at http://localhost:8082');
   
