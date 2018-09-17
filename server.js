@@ -1,8 +1,8 @@
 // server.js
 // load the things we need
 var express = require('express');
-var app = express();
-
+var pgp = require('pg-promise')();
+var app = express()
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
@@ -17,5 +17,7 @@ app.get('/', function(req, res) {
 app.get('/about', function(req, res) {
     res.render('pages/about');
 });
-console.log('App is running at http://localhost:8080');
-app.listen(8080);
+console.log('App is running at http://localhost:8082');
+
+
+app.listen(8082);
