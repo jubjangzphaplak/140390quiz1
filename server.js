@@ -17,6 +17,5 @@ app.get('/', function(req, res) {
 app.get('/about', function(req, res) {
     res.render('pages/about');
 });
-
+console.log('App is running at http://localhost:8080');
 app.listen(8080);
-console.log('8080 is the magic port');
